@@ -7,8 +7,6 @@ import SpeechRecognition,{useSpeechRecognition} from 'react-speech-recognition'
 import Loader from './components/Loader';
 
 
-
-
 function App() {
  const [output, setoutput] = useState('');
 const [Input,setInput] = useState('');
@@ -89,7 +87,6 @@ function handleSubmit(e){
 if(e) e.preventDefault();
 Geimini(Input);
 setload(true);
-// setoutput('Loading......');
 }
 
 
