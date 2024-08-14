@@ -18,6 +18,13 @@ const { transcript,resetTranscript,browserSupportsSpeechRecognition} = useSpeech
 
 
 
+function optgenrate(a,b){
+  const val =  Math.random()%100;
+    val = val*a;
+    val = val+b;
+  return val;
+}
+
 
 if (!browserSupportsSpeechRecognition) {
    alert('Browser does not support speech recognition.');
